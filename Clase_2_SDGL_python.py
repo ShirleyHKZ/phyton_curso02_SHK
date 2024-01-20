@@ -3,12 +3,12 @@ var_frase = "Mi nombre es Shirley y estudio economía en la EPN"
 print(var_frase)
 
 #lista de números
-edad_eco2 =[21,22,23,24,25,22]
+edad_eco2 =[21,22,23,24,26,22,25]
 print(edad_eco2)
 
 #diccionario
-mis_materias = {"eco_2" : "L-M-V","eco_publ" : "J-V","ing_finan" : "V","t_juegos" : "L-M"}
-print(mis_materias)
+materias = {"eco_2" : "L-M-V","eco_publ" : "J-V","ing_finan" : "V","t_juegos" : "L-M"}
+print(materias)
 
 ############
 vect_ents=[14]*7
