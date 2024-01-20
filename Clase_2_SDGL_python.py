@@ -1,28 +1,28 @@
 #variable de texto
-var_frase = "Mi nombre es Shirley y estudio economía en la EPN"
-print(var_frase)
+mi_var = "Hola, Soy Shirley"
+print(mi_var)
 
 #lista de números
 edad_eco2 =[21,22,23,24,26,22,25]
 print(edad_eco2)
 
 #diccionario
-materias = {"eco_2" : "L-M-V","eco_publ" : "J-V","ing_finan" : "V","t_juegos" : "L-M"}
-print(materias)
+libros_fav = {"Las_aventuras_SherlockH" : "Libro1","11_22_63_SK" : "libro2","crimen_y_castigo" : "libro3","cosecha_roja_DH" : "libro4", "El_largo_adiós_RC" : "libro5"}
+print(libros_fav)
 
 ############
-vect_ents=[14]*7
-print(vect_ents)
+vect_enteros=[12]*8
+print(vect_enteros)
 
-vect_flotantes=[9.8]*5
+vect_flotantes=[8.6]*4
 print(vect_flotantes)
 
-diccionario = {"entero" : vect_ents, "flotante" : vect_flotantes}
+diccionario = {"entero" : vect_enteros, "flotante" : vect_flotantes}
 print(diccionario)
 
 # Creación de Cadenas
 cadena_simple = 'Hola a todos, Espero que esten bien!'
-cadena_doble=["Voy hablarles un poco sobre mi","Estoy estudio economía","y cursando sexto-séptimo semestre"]
+cadena_doble=["Mis libros favoritos son novelas negras y policiacas, pero mi favorito Son las Aventuras de Sherlock Holmes donde se encuentran los cuentos las cinco semillas de naranja y el problema final","¿Qué tipos de libros les gustan?"]
 print(cadena_doble)
 
 # Uso de pandas para la lectura de una tabla Excel 
